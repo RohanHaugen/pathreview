@@ -28,3 +28,15 @@ This issue has no blockers or dependencies.
 **Setup confirmation:** ![alt text](image.png) App runs locally at localhost:5173
 
 **Cohort ledger:** Issue added to cohort ledger
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** https://github.com/RohanHaugen/pathreview/commit/1d103b98284cbde200ce769764e1fa9acd01b29b 
+
+**Reproduction summary:**
+The way I  reproduced the issue was by running the tests for structural chunker. I observed that it returned an empty list when the text was missing headings.
+**PLAN.md link:** [PLAN.md](PLAN.md)
+
+**Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
+
+**Blockers or open questions:**
