@@ -118,7 +118,7 @@ class StructuralChunker(BaseChunker):
                 current_section_lines.append(line)
 
         # Save final section
-        if current_section_lines and heading_stack:
+        if current_section_lines:
             sections.append(
                 {
                     "content": "\n".join(current_section_lines).strip(),
