@@ -37,6 +37,16 @@ This issue has no blockers or dependencies.
 The way I  reproduced the issue was by running the tests for structural chunker. I observed that it returned an empty list when the text was missing headings.
 **PLAN.md link:** [PLAN.md](PLAN.md)
 
-**Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
-
 **Blockers or open questions:**
+
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+I have completed all tasks in PLAN.md.
+
+**Next steps:**
+I am going to focus on the edge cases to see if any have not been fulfilled.
+**Blockers:**
