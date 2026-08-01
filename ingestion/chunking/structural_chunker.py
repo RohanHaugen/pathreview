@@ -95,7 +95,11 @@ class StructuralChunker(BaseChunker):
                     sections.append(
                         {
                             "content": "\n".join(current_section_lines).strip(),
-                            "path": [h[1] for h in heading_stack],
+                            "path": (
+                                [h[1] for h in heading_stack]
+                                if heading_stack
+                                else [("(no heading)")]
+                            ),
                             "level": heading_stack[-1][0] if heading_stack else 0,
                         }
                     )
@@ -121,7 +125,7 @@ class StructuralChunker(BaseChunker):
             sections.append(
                 {
                     "content": "\n".join(current_section_lines).strip(),
-                    "path": [h[1] for h in heading_stack],
+                    "path": [h[1] for h in heading_stack] if heading_stack else [("(no heading)")],
                     "level": heading_stack[-1][0] if heading_stack else 0,
                 }
             )
