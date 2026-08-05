@@ -50,3 +50,17 @@ I have completed all tasks in PLAN.md.
 **Next steps:**
 I am going to focus on the edge cases to see if any have not been fulfilled.
 **Blockers:**
+
+### Check-in 2 (end of week)
+
+**PR link:** [\[link to your submitted pull request\]](https://github.com/ascherj/pathreview/pull/511)
+
+**Branch:** fix/149/structural-chunker-drops-documents
+
+**What you built:**
+My fix appends text before a heading to the text stack so that it isn't discarded. It also doesn't check that chunks have been submitted already before submitting everything else.
+**Tests added or updated:**
+I just touched the structural chunker test file, I added a test to see if the text before a heading is properly chunked, and the correction was in fixing the code so a test of a headingless document passed.
+**Self-review confirmation:** [x] make check passes  [x] make test-unit passes
+
+**Draft PR feedback received from:** "none"
