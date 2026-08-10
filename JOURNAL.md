@@ -64,3 +64,32 @@ I just touched the structural chunker test file, I added a test to see if the te
 **Self-review confirmation:** [x] make check passes  [x] make test-unit passes
 
 **Draft PR feedback received from:** "none"
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [x] No — still awaiting review
+
+**Summary of feedback:**
+No review came in
+**How you responded:**
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+The main thing that was harder than expected was testing the behavior, since it was not a user-visible feature. It was hard making a test case, but the provided tests did help.
+
+**What did you learn about working in a large codebase?**
+I learned about commit etiquette, as well as how important it is to create useful messages. 
+
+**How did AI tools help — and where did they fall short?**
+AI assistance was useful in reviewing my work once I had implemented a couple of solutions, as I hadn't noticed that I was still checking for a chunk when doing the final submission.
+
+**What would you do differently if you started over?**
+I think I would choose a harder issue, while the issue I chose was good, I think I could have challenged myself more.
+
+**What are you most proud of from this module?**
+The thing I am most proud about is how I learned over the course of it, as at first I made mistakes but over time I think I got better at creating commit messages and organizing my changes.
